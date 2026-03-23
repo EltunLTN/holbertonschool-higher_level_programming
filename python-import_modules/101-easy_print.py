@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-import pythoniscool
-pythoniscool.iscool()
+__import__('pythoniscool')
