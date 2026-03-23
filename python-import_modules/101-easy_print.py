@@ -1,0 +1,2 @@
+import pythoniscool
+pythoniscool.iscool()
