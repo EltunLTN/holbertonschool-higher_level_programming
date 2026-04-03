@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """This module defines a Square class that represents a square shape."""
+
+
 class Square:
     """This class defines a square by its size with validation."""
 
@@ -34,6 +36,7 @@ class Square:
         if value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
+        
     def area(self):
         """Calculate and return the area of the square."""
         return self.__size ** 2
