@@ -5,9 +5,7 @@
 class Rectangle:
     """This class defines a rectangle by
     its properties and future behaviors."""
-
     number_of_instances = 0
-    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle instance with optional width and height.
@@ -64,15 +62,16 @@ class Rectangle:
         """Calculate and return the perimeter of the rectangle."""
         if self.__width == 0 or self.__height == 0:
             return 0
-        return 2 * (self.__width + self.__height)
+        return 2*(self.__width+self.__height)
 
     def __str__(self):
-        """Return string representation using print_symbol characters."""
+        """Return the string representation of the
+        rectangle using '#' characters."""
         if self.__width == 0 or self.__height == 0:
             return ""
         rect_str = ""
         for i in range(self.__height):
-            rect_str += str(self.print_symbol) * self.__width
+            rect_str += "#" * self.__width
             if i != self.__height - 1:
                 rect_str += "\n"
         return rect_str
