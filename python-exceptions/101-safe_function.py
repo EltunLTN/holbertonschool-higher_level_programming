@@ -1,18 +1,17 @@
 #!/usr/bin/python3
-"""Defines a function that safely executes a function."""
+"""This module provides a function to execute other functions safely."""
 import sys
+
+
 def safe_function(fct, *args):
-    """Execute a function safely with error handling.
+    """Execute a function safely and return None if an exception occurs.
 
     Args:
-        fct: The function to be executed.
-        *args: Variable length argument list for the function.
-
-    Returns:
-        The result of the function if it executes successfully, None otherwise.
+        fct: The function to execute.
+        *args: Arguments to pass to the function.
     """
     try:
         return fct(*args)
     except Exception as e:
-        print("Exception:", e, file=sys.stderr)
+        print("Exception: {}".format(e), file=sys.stderr)
         return None
