@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""This module defines a magic_calculation function based on Python bytecode."""
-
+"""This module defines the magic_calculation function."""
 
 def magic_calculation(a, b):
-    """Perform a magic calculation based on the given bytecode."""
+    """Perform a magic calculation 
+    based on the given bytecode."""
     result = 0
     for i in range(1, 3):
         try:
