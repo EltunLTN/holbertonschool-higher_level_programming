@@ -5,4 +5,5 @@
 class BaseGeometry:
     """An empty class representing base geometry."""
     def area(self):
-        raise ValueError("area() is not implemented")
+        """Calculate and return the area of the geometry."""
+        raise Exception("area() is not implemented")
