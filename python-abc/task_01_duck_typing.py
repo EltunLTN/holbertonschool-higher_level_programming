@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+"""This module demonstrates duck typing with shapes."""
 from abc import ABC, abstractmethod
 import math
 
