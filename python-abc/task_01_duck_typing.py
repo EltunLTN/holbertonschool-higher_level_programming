@@ -9,34 +9,42 @@ class Shape(ABC):
     @abstractmethod
     def area(self):
         """Return area."""
-        raise NotImplementedError
+        pass
 
     @abstractmethod
     def perimeter(self):
         """Return perimeter."""
-        raise NotImplementedError
+        pass
 
 
 class Circle(Shape):
+    """Circle shape."""
+
     def __init__(self, radius):
         self.radius = radius
 
     def area(self):
+        """Return area of circle."""
         return pi * self.radius**2
 
     def perimeter(self):
+        """Return perimeter of circle."""
         return 2 * pi * self.radius
 
 
 class Rectangle(Shape):
+    """Rectangle shape."""
+
     def __init__(self, width, height):
         self.width = width
         self.height = height
 
     def area(self):
+        """Return area of rectangle."""
         return self.width * self.height
 
     def perimeter(self):
+        """Return perimeter of rectangle."""
         return 2 * (self.width + self.height)
 
 
