@@ -6,6 +6,7 @@ import math
 
 # Abstract class
 class Shape(ABC):
+    """Abstract class representing a shape."""
     @abstractmethod
     def area(self):
         """Calculate area"""
@@ -19,6 +20,7 @@ class Shape(ABC):
 
 # Circle class
 class Circle(Shape):
+    """Class representing a circle, inheriting from Shape."""
     def __init__(self, radius):
         self.radius = radius
 
@@ -31,6 +33,7 @@ class Circle(Shape):
 
 # Rectangle class
 class Rectangle(Shape):
+    """Class representing a rectangle, inheriting from Shape."""
     def __init__(self, width, height):
         self.width = width
         self.height = height
