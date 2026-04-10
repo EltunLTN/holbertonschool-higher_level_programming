@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Module that defines abstract Shape class and concrete implementations
 using duck typing.
