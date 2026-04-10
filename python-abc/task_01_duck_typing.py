@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+
 """Module that defines shapes using abstract base classes and duck typing."""
 
 from abc import ABC, abstractmethod
