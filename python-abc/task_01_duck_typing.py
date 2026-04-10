@@ -17,8 +17,6 @@ class Shape(ABC):
     def perimeter(self):
         """Return the perimeter of the shape."""
         raise NotImplementedError()
-
-
 class Circle(Shape):
     """Class representing a circle."""
 
