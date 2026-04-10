@@ -119,7 +119,7 @@ if __name__ == "__main__":
     rectangle = Rectangle(4, 7)
 
     print("Circle:")
-    shape_info(circle)  
+    shape_info(circle)
 
     print("\nRectangle:")
     shape_info(rectangle)
