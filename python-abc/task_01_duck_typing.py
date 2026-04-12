@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Module that defines shapes using abstract base classes and duck typing."""
-
 from abc import ABC, abstractmethod
 from math import pi
 
@@ -24,7 +23,7 @@ class Circle(Shape):
 
     def __init__(self, radius):
         """Initialize a circle with a radius."""
-        self.radius = radius  # goes through the property setter
+        self.radius = radius
 
     @property
     def radius(self):
@@ -55,19 +54,31 @@ class Rectangle(Shape):
 
     @property
     def width(self):
+        """Return the width."""
         return self.__width
 
     @width.setter
     def width(self, value):
+        """Set width, always storing absolute value."""
         self.__width = abs(value)
 
     @property
     def height(self):
+        """Return the height."""
         return self.__height
 
     @height.setter
     def height(self, value):
+        """Set height, always storing absolute value."""
         self.__height = abs(value)
+
+    def area(self):
+        """Return the area of the rectangle."""
+        return self.width * self.height
+
+    def perimeter(self):
+        """Return the perimeter of the rectangle."""
+        return 2 * (self.width + self.height)
 
 
 def shape_info(shape):
