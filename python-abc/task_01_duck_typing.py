@@ -24,15 +24,25 @@ class Circle(Shape):
 
     def __init__(self, radius):
         """Initialize a circle with a radius."""
-        self.radius = radius  # ❗ dəyişmirik
+        self.radius = radius  # goes through the property setter
+
+    @property
+    def radius(self):
+        """Return the radius."""
+        return self.__radius
+
+    @radius.setter
+    def radius(self, value):
+        """Set radius, always storing absolute value."""
+        self.__radius = abs(value)
 
     def area(self):
         """Return the area of the circle."""
-        return pi * (abs(self.radius) ** 2)
+        return pi * self.radius ** 2
 
     def perimeter(self):
         """Return the perimeter of the circle."""
-        return 2 * pi * abs(self.radius)
+        return 2 * pi * self.radius
 
 
 class Rectangle(Shape):
@@ -43,13 +53,21 @@ class Rectangle(Shape):
         self.width = width
         self.height = height
 
-    def area(self):
-        """Return the area of the rectangle."""
-        return abs(self.width) * abs(self.height)
+    @property
+    def width(self):
+        return self.__width
 
-    def perimeter(self):
-        """Return the perimeter of the rectangle."""
-        return 2 * (abs(self.width) + abs(self.height))
+    @width.setter
+    def width(self, value):
+        self.__width = abs(value)
+
+    @property
+    def height(self):
+        return self.__height
+
+    @height.setter
+    def height(self, value):
+        self.__height = abs(value)
 
 
 def shape_info(shape):
