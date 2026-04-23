@@ -1,34 +1,35 @@
+
 # Holberton School - Higher Level Programming
 
-Bu repository Holberton School proqraminin **Higher Level Programming** modulu ucun tapshiriqlari ehtiva edir. Layihe esasen Python temellerini, OOP konseptlerini ve melumat strukturlarini praktiki olaraq guclendirmek ucun qurulub.
+This repository contains tasks for the **Higher Level Programming** module of the Holberton School program. The project is built to practically strengthen Python fundamentals, OOP concepts, and data structures.
 
-## Mezmun
+## Table of Contents
 
-1. [Layihe Haqqinda](#layihe-haqqinda)
-2. [Qovluq Strukturu](#qovluq-strukturu)
-3. [Istifade](#istifade)
-4. [Qisa Numune](#qisa-numune)
-5. [Telebler](#telebler)
-6. [Muellif](#muellif)
+1. [About the Project](#about-the-project)
+2. [Directory Structure](#directory-structure)
+3. [Usage](#usage)
+4. [Quick Example](#quick-example)
+5. [Requirements](#requirements)
+6. [Author](#author)
 
-## Layihe Haqqinda
+## About the Project
 
-Bu repository daxilinde asagidaki movzular uzre Python fayllari yer alir:
+This repository contains Python files covering the following topics:
 
 - Python basic syntax
 - Conditions, loops, functions
-- Imports ve modules
+- Imports and modules
 - Data structures
 - Exceptions handling
-- Classes ve OOP
+- Classes and OOP
 - Inheritance
-- Abstract classes ve duck typing
+- Abstract classes and duck typing
 
-Meqsed: her movzu ucun kicik, test oluna bilen, temiz Python kodu yazmaq.
+Goal: to write small, testable, clean Python code for each topic.
 
-## Qovluq Strukturu
+## Directory Structure
 
-Asagidaki qovluqlar hazirda repository daxilindedir:
+The following directories are currently present in the repository:
 
 - `python-hello_world/`
 - `python-if_else_loops_functions/`
@@ -41,48 +42,47 @@ Asagidaki qovluqlar hazirda repository daxilindedir:
 - `python-more_data_structures/`
 - `python-abc/`
 
-Her qovluqda movzuya aid ayrica `README.md` ve tapshiriq fayllari (`0-...py`, `1-...py`, ve s.) movcuddur.
+Each directory contains a separate `README.md` and task files related to the topic (`0-...py`, `1-...py`, etc.).
 
-## Istifade
+## Usage
 
-### 1) Repository-ye daxil olun
+### 1) Navigate into the repository
 
 ```bash
 cd holbertonschool-higher_level_programming
 ```
 
-### 2) Tapshiriq qovluguna kecin
+### 2) Go to the task directory
 
 ```bash
 cd python-abc
 ```
 
-### 3) Python faylini isledin
+### 3) Run the Python file
 
 ```bash
 ./task_01_duck_typing.py
 ```
 
-Alternativ:
+Alternative:
 
 ```bash
 python3 task_01_duck_typing.py
 ```
 
-## Qisa Numune
+## Quick Example
 
 ```bash
 cd python-data_structures
 python3 0-print_list_integer.py
 ```
 
-## Telebler
+## Requirements
 
-- OS: Ubuntu/Linux (task teleblerinden asili olaraq)
+- OS: Ubuntu/Linux (depending on task requirements)
 - Python: 3.x
-- Kod stili: PEP8 (task teleblerine uygun)
+- Code style: PEP8 (according to task requirements)
 
-## Muellif
+## Author
 
-Holberton School telebesi ucun tedris meqsedli repository.
-
+Educational repository for a Holberton School student.
