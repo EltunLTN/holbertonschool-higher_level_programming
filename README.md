@@ -78,9 +78,9 @@ python3 0-print_list_integer.py
 
 ## Requirements
 
-- OS: Ubuntu/Linux (depending on task requirements)
+- OS: Ubuntu/Linux
 - Python: 3.x
-- Code style: PEP8 (according to task requirements)
+- Code style: PEP8
 
 ## Author
 
