@@ -25,7 +25,6 @@ This repository contains Python files covering the following topics:
 - Inheritance
 - Abstract classes and duck typing
 
-Goal: to write small, testable, clean Python code for each topic.
 
 ## Directory Structure
 
