@@ -43,4 +43,3 @@ Example:
 ```bash
 python3 101-nqueens.py 8
 ```
-.

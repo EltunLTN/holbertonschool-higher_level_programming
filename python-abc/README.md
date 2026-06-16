@@ -69,4 +69,3 @@ python task_05_dragon.py
 - Iterator protocol (`iter`, `next`, `__next__`)
 - Multiple inheritance zamanı MRO davranışı
 - Mixins ilə davranışı modulyar şəkildə əlavə etmək
-,

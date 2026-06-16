@@ -42,4 +42,3 @@ Example:
 ```bash
 python3 3-square.py
 ```
-.
