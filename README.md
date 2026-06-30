@@ -82,7 +82,5 @@ python3 0-print_list_integer.py
 - Python: 3.x
 - Code style: PEP8
 
-## Author
 
-Educational repository for a Holberton School student.
 EltunLTN
